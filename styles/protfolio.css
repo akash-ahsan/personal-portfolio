@@ -97,11 +97,12 @@
 header{
     background-color: rgb(33,37,41);
     padding-top: 12.8px;
+    background:url(../Images/home-bg.jpg),rgb(33,37,41);
    
 }
 nav{
      width: 49%;
-    max-width: 798px;
+    max-width: 1120px;
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
@@ -110,15 +111,15 @@ nav{
 nav .menu{
     display: flex;
     list-style: none;
-    gap: 20px;
+    gap: 15px;
     align-items: center;
 }
-nav .menu a {
+nav .menu li a {
     box-sizing: border-box;
     color: rgb(199, 112,240);
     cursor: pointer;
     display: block;
-    font-family: raleway,serif;
+    font-family: Raleway,serif;
     font-size: 19.2px;
     font-weight: 400;
     height: 83.1875px;
@@ -144,4 +145,32 @@ nav .menu a {
    transition-property: all;
    width: 86.6562px;
    z-index: 1;
+}
+#banner{
+    /* border: 1px solid red; */
+    margin: 10px 250px 0px 300px ;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    ;
+}
+#banner .banner-content h2{
+    font-size: 35px;
+    font-weight: 500;
+    color: antiquewhite;
+}
+ #banner .banner-content h1{
+    font-size: 45px;
+    font-weight: 500;
+    color:rgb(205, 95, 248)
+
+ } 
+ #banner .banner-content h3{
+    font-size: 20px;
+    font-weight: 500;
+    color:rgb(205, 95, 248)
+ }
+#banner .banner-image img{
+    max-width:350px ;
+    vertical-align: middle;
 }
